@@ -2,7 +2,7 @@
   "name": "github-user-activity",
   "packageManager": "yarn@4.4.1",
   "scripts": {
-    "task-cli": "node dist/index",
+    "github-activity": "node dist/index",
     "test": "jest",
     "build": "tsc -b"
   },
