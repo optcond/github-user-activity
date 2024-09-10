@@ -3,10 +3,14 @@
 An implementation of the https://roadmap.sh/projects/github-user-activity
 
 ## Utility
-The user can:
-* fetches latest events (last 30) for chosen user (username) from github
+* fetch latest events (last 30) for chosen user (username) from github
 * currently supports formatting for 2 types of events: Create and Push
 * has cache implemented by default
+
+## Skills battle tested
+* API wrapper
+* Decorator pattern for caching responses by extending non-caching class
+* Typeguards for response type processing
 
 ## Installation
 ```
